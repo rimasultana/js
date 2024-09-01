@@ -1,10 +1,10 @@
 // const age = 10;
 
-// // if (age > 10) {
-// //   console.log("apni dukta parben");
-// // } else{
-// //     console.log("sry, firta hobe apnka");
-// // }
+// if (age > 10) {
+//   console.log("apni dukta parben");
+// } else{
+//     console.log("sry, firta hobe apnka");
+// }
 
 // if (age >= 15) {
 //   console.log("apni malai dukta parben");
@@ -18,9 +18,8 @@
 //     console.log("i have a smaller value");
 
 // }
+var sub = x-y;
+var devide = x / y;
 var x = 5;
-var y = 10;
-var devide = x/y;
-console.log(typeof devide);
-var value = devide.toFixed(4);
-console.log(typeof value);
+var y = 5;
+console.log(devide);
