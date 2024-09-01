@@ -25,6 +25,13 @@
 //     console.log('no food, we are fasting');
 // }
 
-const friends =['balam', 'kalam', 'salam', 'rahman'];
-console.log(friends.indexOf('kalam'));
-console.log(friends.indexOf('tomato'));
+// const friends =['balam', 'kalam', 'salam', 'rahman'];
+// console.log(friends.indexOf('kalam'));
+// console.log(friends.indexOf('tomato'));
+
+const friends = ['blam', 'kalam', 'jsdhju', 'jsjh'];
+const food = 'ros o gol 1 a';
+const age = 15;
+console.log(Array.isArray(friends));
+console.log(Array.isArray(food));
+console.log(Array.isArray(age));
