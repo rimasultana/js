@@ -34,6 +34,35 @@ if (burgerPrize > 500) {
 // D: 60-69
 // F: 0-59
 
+// var score = 80;
 
+// if (score >= 80) {
+//   console.log("Grade:A");
+// } else if (score >= 70) {
+//   console.log("Grade:B");
+// } else if (score >= 50) {
+//   console.log("Grade:C");
+// } else if (score >= 40) {
+//   console.log("Grade:D");
+// } else {
+//   console.log("Grade:f");
+// }
 
-var 
+var score = 80;
+
+var grade;
+
+if (score >= 90 && score <= 100) {
+  grade = "A";
+} else if (score >= 80 && score <= 89) {
+  grade = "B";
+} else if (score >= 70 && score <= 79) {
+  grade = "C";
+} else if (score >= 60 && score <= 69) {
+  grade = "D";
+} else if (score >= 0 && score <= 60) {
+  grade = "F";
+} else {
+  grade = "Invaid Score";
+}
+console.log("Grade", grade);
